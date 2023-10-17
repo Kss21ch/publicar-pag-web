@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página Personal</title>
+    <style>
+        
+        body {
+            text-align: center;
+            background-color: #bbbbbb; 
+            font-family: Comic;
+        }
+        h1 {
+            font-size: 28px;
+            color: rgb(7, 6, 6); 
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin: 10px;
+        }
+        .social-icons img {
+            width: 45px; 
+        }
+        
+        .social-icons a {
+            color: #faf322; 
+            text-decoration: none; 
+        }
+        .social-icons a:hover {
+            color: #28dad1; 
+        }
+        
+        .profile-img {
+            border: 2px solid #000; 
+            border-radius: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Hola, soy Kevin Steven</h1>
+    
+    
+    <div style="text-align: center;">
+        <img src="mifoto.jpeg" alt="Tu Foto" width="200" class="profile-img">
+    </div>
+    
+    
+    <div class="social-icons" style="background-color: #d1d1d1; padding: 20px;">
+        <h2 style="color: #333;">Contáctame en:</h2>
+        <a href="https://www.facebook.com/kevinsteven.soriano?mibextid=9R9pXO" target="_blank">
+            <img src="facebook.png" alt="Facebook">
+        </a>
+        
+        <a href="https://instagram.com/kevinstevensoriano?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+            <img src="IconoInsta.ico" alt="Instagram">
+        </a>
+        
+        <a href="https://wa.me/qr/WQGFQ3FHARBEC1" target="_blank">
+            <img src="WhatsAppIco.png" alt="WhatsApp">
+        </a>
+    </div>
+</body>
+</html>
